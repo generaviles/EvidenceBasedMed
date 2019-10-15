@@ -1,0 +1,6 @@
+book_filename: "bookdown-mbe"
+language:
+  ui:
+    chapter_name: "Sección "
+delete_merged_file: true
+output_dir: "docs"
