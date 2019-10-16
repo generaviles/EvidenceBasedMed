@@ -1,9 +1,9 @@
-# ¿Qué es la medicina basda en evidencias? {#intro}
+# ¿Qué es la medicina basada en evidencias? {#intro}
 
-Originalmente la medicina basada en evidencias (MBE) se definía como el uso conciente, explícito y juicioso de la mejor evidencia disponible para la toma de decisiones sobre la atención individual de pacientes [@sackett1996evidence].
-La versión actualizada de éste concepto se entiende como:
+Originalmente la medicina basada en evidencias (MBE) se definió como el uso conciente, explícito y juicioso de la mejor evidencia disponible para la toma de decisiones sobre la atención individual de pacientes [@sackett1996evidence].
+La versión actualizada de éste concepto se definió como:
 
-  > "La integración de la mejor evidencia en **investigación** con el **expertiese clínico** y los **valores** del paciente." [@straus2018evidence]
+  > "La integración de la mejor evidencia en **investigación** con el **expertiese clínico** y los **valores del paciente**." [@straus2018evidence]
 
 Ésta última definición prioriza una aproximación sistemática a la resolución de problemas clínicos que incluyen al paciente de forma activa, la experiencia del/la clínico y los resultados en investigación. A éste conjunto de características se le ha llamado la **tríada de la medicina basada en evidencias.**
 
@@ -13,7 +13,7 @@ La versión actualizada de éste concepto se entiende como:
 
 ## ¿Qué competencias de MBE necesitan TODOS los médicos clínicos?
 
-**Competencias de MBE elementales.**
+**Habilidades elementales en MBE.**
 
 A continuación se presenta una lista no exahustiva de las habilidades que tod@ médico clínico debe tener, indistinto de su nivel de especialización o lugar de trabajo [@slawson2005teaching].
 
@@ -45,10 +45,11 @@ A continuación se presenta una lista no exahustiva de las habilidades que tod@ 
 
 ### ¿Quiénes deben aprender competencias avanzadas?
 
-  - Médic@s que son vistos como líderes de opinión en su campo.
+  - Médicos que son vistos como líderes de opinión en su campo.
   - Clínicos que entrenan a otros médicos.
   - Médicos en centros de referencia para su especialidad/línea de práctica clínica.
-  - *¿Médicos de la Clínica del Estilo de Vida Saludable?*
+  - Médicos educadores, escritores quienes proveen información para otros consumidores de información clínica.
+  - *¿Médicos de la [Clínica del Estilo de Vida](http://clinicadelestilodevida.org/)?*
 
 ## MBE en la práctica.
 
@@ -63,6 +64,8 @@ Otro detalle que surgue al intentar seguir la práctica mencionada es que, la ma
 Es aquí donde la práctica contemporánea de la Medicina Basada en Evidencias toma relevancia y brilla por su efectividad para empoderar a los clínicos en función de las necesidades de sus pacientes.
 
 ## Propuesta de proceso de la MBE
+
+El siguiente proceso ha sido propuesto como una guía general para integrar la práctica de MBE a la práctica clínica [@bordley1997evidence].
 
   1. **El paciente:** Comienza con un problema o pregunta que surja del proceso de atención de tu paciente.
   1. **Integra una pregunta:** Construye una pregunta estructurada derivada del caso.

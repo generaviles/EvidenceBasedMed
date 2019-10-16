@@ -1,0 +1,18 @@
+# PICO como llave de entrada a la MBE {#pico}
+
+Dudas en el contexto clínico muchas veces pueden surgir en la mente del clínicom de forma desorganizada o desestructurada. Es por ésta razón que se propuso el marco de referencia PICO, buscando facilitar la sistematización del proceso de estructuración de dudas clínicas [@richardson1995well].
+
+PICO es un acrónimo que significa lo siguiente:
+
+   - **P**: *Patients*/*Population*. ¿Quiénes son los pacientes o la población de interes?
+   - **I**: *Intervention(s)*/*Exposure(s)*. Por ejemplo: estudios diagnóstico, comidas, medicamentos, intervenciones quirúrgicas, tiempo, factores de riesgo.
+   - **C**: *Comparitor*. Para los temas de terpaia, prevención, daño o factor de riesgo, siempre habrá una intervención experimental o una exposición de riesgo y un control, contra quien se comparan los resultados.
+   - **O**: *Outcome*. ¿Cuáles son las consecuencias relevantes para la salud del paciente de las exposiciones sobre las que estamos interesados? Es importante también incluir el período de interés.
+
+Es muy importante que, además de intergrar los componentes PICO, se documente la naturaleza de la pregunta. Existen 5 preguntas clínicas fundamentales de acuerdo a [@guyatt2002users]:
+
+  1. **Terapia**: determinación del efecto de intervenciones en resultados relevantes para pacientes (síntomas, funcionalidad, morbilidad, mortalidad, costos).
+  1. **Daño**. Caracterización de los efectos de agentes potencialmente negativos (incluyendo terpaias de la pregunta 1) para el estado de salud de los pacientes.
+  1. **Diagnósticos Diferenciales**: para pacientes con una presentación clínica particular, busca establecer la frecuencia de los desórdenes de fondo.
+  1. **Dianóstico**: Establecimiento del poder una prueba diagnóstica para diferenciar entre aquellas personas con una condición patológica específica *v.s.* aquellos sin la condición.
+  1. **Pronóstico**: estimación del curso de vida de un paciente.
