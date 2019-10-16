@@ -9,7 +9,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 csl: vancouver.csl
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: rstudio/bookdown-mbe
 description: "Club de Revistas de Medicina de Estilo de Vida."
 ---
 
@@ -17,11 +17,3 @@ description: "Club de Revistas de Medicina de Estilo de Vida."
 
 Éste manual está diseñado para acompañar las sesiones del Club de Revistas de la Clínica del Estilo de Vida adscrita al Hospital "La Carlota", dirigida por el [Dr Lujhon Flores](https://www.linkedin.com/in/lujohnflorez/).
 La aproximación a la teoría de medicina basada en evidencia es compilada y presentada por el [Dr. Gener J Avilés-R](https://www.linkedin.com/in/generaviles/).
-
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
