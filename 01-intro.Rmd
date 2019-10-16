@@ -1,21 +1,72 @@
-# Introduction {#intro}
+# ¿Qué es la medicina basda en evidencias? {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+Originalmente la medicina basada en evidencias (MBE) se definía como el uso conciente, explícito y juicioso de la mejor evidencia disponible para la toma de decisiones sobre la atención individual de pacientes [@sackett1996evidence].
+La versión actualizada de éste concepto se entiende como:
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+  > "La integración de la mejor evidencia en **investigación** con el **expertiese clínico** y los **valores** del paciente." [@straus2018evidence]
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+Ésta última definición prioriza una aproximación sistemática a la resolución de problemas clínicos que incluyen al paciente de forma activa, la experiencia del/la clínico y los resultados en investigación. A éste conjunto de características se le ha llamado la **tríada de la medicina basada en evidencias.**
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+<center>
+![La tríada de la MBE](img/EBM.png)
+</center>
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+## ¿Qué competencias de MBE necesitan TODOS los médicos clínicos?
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+**Competencias de MBE elementales.**
+
+A continuación se presenta una lista no exahustiva de las habilidades que tod@ médico clínico debe tener, indistinto de su nivel de especialización o lugar de trabajo [@slawson2005teaching].
+
+  - *Information mastery*: la capacidad de encontrar la mejor evidencia para la práctica del día a día.
+  - Tener información *en tiempo y forma* en el pointo de atención para la toma de decisiones clínicas.
+    - Basadas en la internet u *offline*.
+  - Evaluar información generada por expertos, **incluyendo colegas**, educación médica continua, presentaciones, revisiones y guías.
+  - Evaluar de forma crítica información de representantes de farmaceúticas y/u otros promotores de terapeúticas alópatas o alternativas.
+
+## Habilidades que solo un pequeño porcentaje de médicos clínicos necesitan dominar.
+
+**Habilidades avanzadas en MBE [@slawson2005teaching].**
+
+  - Evaluación crítica e interpretación de investigaciones en:
+    - Terapias.
+    - Procesos diagnósticos.
+    - Test diagnósticos.
+    - Estudios de pronóstico.
+  - Evaluación crítica e interpretación de:
+    - Revisiones sistemáticas (incluyendo meta-análisis),
+    - Análisis de decisión,
+    - Guías de práctica,
+    - Marketing farmaceútico.
+  - Asignar niveles de evidencia a hallazgos en investigación.
+  - Enseñanza de competencias elementales en MBE.
+  - Producir comunicaciones orales y por escrito de hallazgos en investigación.
+    - Para pacientes.
+    - Para colegas médicos.
+
+### ¿Quiénes deben aprender competencias avanzadas?
+
+  - Médic@s que son vistos como líderes de opinión en su campo.
+  - Clínicos que entrenan a otros médicos.
+  - Médicos en centros de referencia para su especialidad/línea de práctica clínica.
+  - *¿Médicos de la Clínica del Estilo de Vida Saludable?*
+
+## MBE en la práctica.
+
+Inicialmente el proceso de la práctica clínica basada en evidencia se realizaba leyendo publicaciones del área de expertiese clínica de interés, el médico dispondría una cantidad de tiempo semanal/diario a leer publicaciones relevantes.
+
+Si ésto fuera la práctica actual sería imposible para el clínico leer todas las publicaciones relevantes de su área de interés y mantener una práctica diaria efectiva.
+
+Otro detalle que surgue al intentar seguir la práctica mencionada es que, la mayoría de los documentos leídos no tendrían relación con los pacientes atendidos en la práctica del día. Ésto causa una desconección cognitiva, dificultando el aprendizaje a largo plazo de los descubrimientos publicados.
+
+  > Si pudésemos alinear el aprendizaje y actualización del clínico a las necesidades de sus pacientes en la práctica diaria tendríamos, entonces, una estrategia con mayor probabilidad de éxito para el aprendizaje del médico y el beneficio directo de sus pacientes [@bordley1997evidence].
+
+Es aquí donde la práctica contemporánea de la Medicina Basada en Evidencias toma relevancia y brilla por su efectividad para empoderar a los clínicos en función de las necesidades de sus pacientes.
+
+## Propuesta de proceso de la MBE
+
+  1. **El paciente:** Comienza con un problema o pregunta que surja del proceso de atención de tu paciente.
+  1. **Integra una pregunta:** Construye una pregunta estructurada derivada del caso.
+  1. **Fuentes de información:** Selecciona la fuente/s apropiada/s y realiza una búsqueda.
+  1. **Evaluación de información:** Evalúa la evidencia en función de su validez (cercanía a la *verdad*) y aplicabilidad (¿qué tan usable es en tu práctica clínica?)
+  1. **El paciente:** Regresa a tu paciente, integra la evidencia con tu expertiese clínico, las preferencias del paciente y toma una decisión de aplicación en la práctica.
+  1. **Autoevaluación:** Evalua tu rendimiento con el paciente y el caso en particular.
