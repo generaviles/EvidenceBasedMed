@@ -1,4 +1,4 @@
-# PICO como llave de entrada a la MBE {#pico}
+# PICO: aprendiendo a integrar preguntas clínicas efectivas {#pico}
 
 Dudas en el contexto clínico muchas veces pueden surgir en la mente del clínicom de forma desorganizada o desestructurada. Es por ésta razón que se propuso el marco de referencia PICO, buscando facilitar la sistematización del proceso de estructuración de dudas clínicas [@richardson1995well].
 
@@ -16,3 +16,97 @@ Es muy importante que, además de intergrar los componentes PICO, se documente l
   1. **Diagnósticos Diferenciales**: para pacientes con una presentación clínica particular, busca establecer la frecuencia de los desórdenes de fondo.
   1. **Dianóstico**: Establecimiento del poder una prueba diagnóstica para diferenciar entre aquellas personas con una condición patológica específica *v.s.* aquellos sin la condición.
   1. **Pronóstico**: estimación del curso de vida de un paciente.
+
+## Anatomía de una pregunta clínica bien construida.
+
+Para aumentar las probabilidades de producir preguntas clínicas robustas, es recomendable seguir los siguientes dos pasos:
+
+  1. **Evalúa a tu paciente**: nunca olvides que aquí y en cualquier parte del mundo *la clínica manda*. Comienza con tu paciente, realiza un interrogatorio dirigido, explóralo, procura integrar un diagnóstico sindrómico. Los problemas y/o preguntas clínicas nacen del acto médico de cuidar por los pacientes.
+  1. **Integra una pregunta**: construye juiciosamente una pregunta clínica, derivada del caso.
+
+### Caso Clínico: Joaquín Gordillo
+
+El señor Gordillo es un paciente de 65 años de edad, con diagnóstico de Diabetes Mellitus tipo 2 y obesidad de larga evolución. Fuera de éstos dos puntos, su historia médica es ordinaria. No fuma. Tuvo una cirugía de rodilla hace 10 años, fuera de ésto sin otras complicaciones médicas. A través de los años ha intentado distintas dietas y programas de ejercicio para reducir su peso sin éxito significativo. Su nieta acaba de iniciar los estudios de preparatoria y él la quiere ver graduar e iniciar la universidad. El señor Gordillo entiende que su DM2 lo pone en gran riesgo de complicaciones cardiovasculares y está frustrado por sus fracasos al intentar bajar de peso. Su compadre le dijo sobre un conocido en el trabajo que *se hizo la manga gástrica*, logrando perder más de 45 kilos y, no solo eso, ¡también se *curó* de la diabetes que tenía! El acude a la clínica del estilo de vida porque quiere saber si lo pueden orientar sobre ésta operación que le comentó su compadre.
+
+#### Tu momento de brillar
+
+Sobre el caso de Joaquín Gordillo:
+
+  - ¿Cuál sería tu objetivo terapeútico global?
+    - ¿Qué querrías medir, mejorar, impactar, lograr?
+  - ¿Qué estás buscando lograr para tu paciente?
+    - ¿Aminorar o eliminar los síntomas?
+    - ¿Reducir el número de efectos adversos presentados?
+    - ¿Mejorar la funcionalidad o los resultados en test diagnósticos?
+
+Utiliza el método PICO para integrar una pregunta clínica estructurada.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+ejercicio <- data.frame(
+  PICO = c("Patient Problem", "Intervention", "Comparison", "Outcome"),
+  Datos = c("---", "---", "---", "---")
+)
+
+
+#ejercicio <- data.frame(
+#  PICO = c("Patient Problem", "Intervention", "Comparison", "Outcome"),
+#  Datos = c("obeso, diabetes mellitus tipo 2, masculino", "manga gástrica, bypass gástrico, cirugía bariátrica", "tratamiento médico convencional", "remisión de diabetes, pérdida de peso, mortalidad")
+#)
+
+
+kable(ejercicio) %>%
+  kable_styling(full_width = T) %>%
+  column_spec(1,bold = T, border_right = T) %>%
+  column_spec(2, width = "30em")
+```
+
+**¿Cuál sería la pregunta clínica estructurada que propondrías**
+
+<!---
+**En pacientes con Diabetes Mellitus Tipo 2 y obesidad: ¿Es la cirugía bariátrica más efectiva que el tratamiento médico convencional, para elevar la probabilidad de remisión de la diabetes?**
+--->
+
+#### El tipo de pregunta que integres influirá en el diseño del estudio que podría ayudarte a responderla
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+preguntas <- data.frame(
+  Pregunta = c("Diagnóstico", "Terapia", "Pronóstico", "Daño o Etiología"),
+  Datos = c("prospectivos, estudios ciegos de comparaciones contra un estándar de oro, transversales", "ensayo de control aleatorio > cohortes", "cohortes > casos y controles > series de casos", "cohorte, casos y controles, series de casos")
+)
+
+names(preguntas)[1] <- "Tipo de Pregunta"
+
+kable(preguntas) %>%
+  kable_styling(full_width = T) %>%
+  column_spec(1,bold = T, border_right = T) %>%
+  column_spec(2, width = "30em")
+
+```
+
+
+  - **Diganóstico:** Cómo seleccionar e interpretar estudios de diagnóstico.
+  - **Terapia:** Cómo seleccionar tratamientos que hacen más bien que daño y que valen la pena el esfuerzo y costo de usarlos.
+  - **Pronóstico:** Cómo estimar la más probable evolución clínica del paciente a lo largo del tiempo, anticipando probables complicaciones y/o la muerte. Utilizando otros factores fuera de la *intervención*.
+  - **Daño/Etiología:** Cómo identificar causas de enfermedad (incluyendo iatrogenas).
+
+## Tipos de Estudios y Rigor en sus Resultados
+
+<center>
+![asd](https://upload.wikimedia.org/wikipedia/commons/3/36/Research_design_and_evidence.svg)
+</center>
+
+ <br>
+ <br>
+
+**Información detallada:**
+
+- [Casos y series de casos.](https://himmelfarb.gwu.edu/tutorials/studydesign101/casereports.cfm)
+- [Casos y Controles.](https://himmelfarb.gwu.edu/tutorials/studydesign101/casecontrols.cfm)
+- [Cohortes.](https://himmelfarb.gwu.edu/tutorials/studydesign101/cohorts.cfm)
+- [Ensayos de control aleatorio.](https://himmelfarb.gwu.edu/tutorials/studydesign101/rcts.cfm)
+- [Revisión sistemática.](https://himmelfarb.gwu.edu/tutorials/studydesign101/systematicreviews.cfm)
+- [Meta-análisis](https://himmelfarb.gwu.edu/tutorials/studydesign101/metaanalyses.cfm)
+- [Guías de práctica clínica.](https://himmelfarb.gwu.edu/tutorials/studydesign101/practiceguidelines.cfm)

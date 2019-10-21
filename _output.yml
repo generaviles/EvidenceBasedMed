@@ -9,11 +9,11 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/generaviles" target="blank">CARhE</a></li>
     edit: https://github.com/generaviles/EvidenceBasedMed/%s
-    download: ["pdf"]
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
+#download: ["pdf"]
+#bookdown::pdf_book:
+#  includes:
+#    in_header: preamble.tex
+#  latex_engine: xelatex
+#  citation_package: natbib
+#  keep_tex: yes
 #bookdown::epub_book: default
