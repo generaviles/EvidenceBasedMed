@@ -45,16 +45,16 @@ Utiliza el método PICO para integrar una pregunta clínica estructurada.
 library(tidyverse)
 library(kableExtra)
 
-ejercicio <- data.frame(
-  PICO = c("Patient Problem", "Intervention", "Comparison", "Outcome"),
-  Datos = c("---", "---", "---", "---")
-)
-
-
 #ejercicio <- data.frame(
 #  PICO = c("Patient Problem", "Intervention", "Comparison", "Outcome"),
-#  Datos = c("obeso, diabetes mellitus tipo 2, masculino", "manga gástrica, bypass gástrico, cirugía bariátrica", "tratamiento médico convencional", "remisión de diabetes, pérdida de peso, mortalidad")
+#  Datos = c("---", "---", "---", "---")
 #)
+
+
+ejercicio <- data.frame(
+  PICO = c("Patient Problem", "Intervention", "Comparison", "Outcome"),
+  Datos = c("obeso, diabetes mellitus tipo 2, masculino", "manga gástrica, bypass gástrico, cirugía bariátrica", "tratamiento médico convencional", "remisión de diabetes, pérdida de peso, mortalidad")
+)
 
 
 kable(ejercicio) %>%
@@ -65,9 +65,9 @@ kable(ejercicio) %>%
 
 **¿Cuál sería la pregunta clínica estructurada que propondrías**
 
-<!---
+
 **En pacientes con Diabetes Mellitus Tipo 2 y obesidad: ¿Es la cirugía bariátrica más efectiva que el tratamiento médico convencional, para elevar la probabilidad de remisión de la diabetes?**
---->
+
 
 #### El tipo de pregunta que integres influirá en el diseño del estudio que podría ayudarte a responderla
 
