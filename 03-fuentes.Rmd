@@ -1,0 +1,63 @@
+# Fuentes de Información
+
+Una vez integrada una pregunta clínica estructurada (Sección \@ref(pico)), podemos proceder a la búsqueda de información para contestarla.
+
+  > Una buena pregunta clínica estructurada lleva más fácilmente a una estrategia de búsqueda efectiva.
+
+## Iniciando la estrategia de búsqueda
+Utilizando la pregunta PICO integrada en la sección anterior (\@ref(preguntaPico)), procederemos a iniciar una búsqueda en fuentes de información que nos permitan contestarla de forma adecuada.
+
+Podemos comenzar por seleccionar los componentes **PICOTT** que nos servirán para delimitar la búsqueda:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+picoSearch <- data.frame(
+  PICOTT = c("Patient's Problem", "Intervention", "Comparison", "Outcome","Type of Question", "Type of Study"),
+  Datos = c("obese, diabetes type 2, male", "stomach stapling (gastric bypass surgery; bariatric surgery)", "standard medical care", "remission of diabetes; weight loss; mortality", "therapy", "RCT"),
+  Search = c('diabetes type 2, obesity', 'bariatric surgery', '---', '---', '---','Clinical Query-Therapy/narrow OR Randomized Control Trial as publication type')
+)
+
+names(picoSearch) <- c('PICOTT', 'Clinical Question', 'Search Strategy')
+
+kable(picoSearch, caption = 'Ideas clave para estrategia de búsquead derivadas de PICOTT') %>%
+  kable_styling(full_width = T) %>%
+  column_spec(1,bold = T, border_right = T) %>%
+  column_spec(2, border_right = T) %>% # column_spec(2, width = "30em")
+  column_spec(3, border_right = T)
+```
+
+## Fuentes para *Evidence-Based Practice (EBP)*
+
+Una vez que se han obtenido las ideas clave derivadas de la pregunta integrada siguiendo la metodología **PICOTT** el siguiente paso es acceder a la literatura disponible.
+
+Uno pensaría que la aproximación lógica sería entrar de lleno a las bases de datos grandes, como lo pueden ser [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/), MedLine, [SCOPUS](https://www.scopus.com/search/form.uri?display=basic), [EBSCO](https://www.ebsco.com/), entre otras. Sin embargo, antes de entrar a una base de datos grande, es preferible utilizar recursos **EBP**, como los que se mencionan a continuación:
+
+- [ACP Journal Club](https://annals.org/aim/journal-club)
+- [BMJ Best Practice](https://bestpractice.bmj.com/info/evidence-information/)
+-[DynaMed](https://www.dynamed.com/)
+- [Essential Evidence Plus](https://www.essentialevidenceplus.com/)
+- [Family Physicians Inquiries Network](https://www.fpin.org/ci-overview)
+- [UpToDate](https://www.uptodate.com/home)
+
+La gran mayoría de servicios **EBP** requieren subscripción de paga o institucional. Si ésto el acceso a éstos servicios no está disponible entonces la búsqueda en bases de datos grandes será el camino a elegir.
+
+## Fuentes de acceso mayormente libre
+
+### Bases de datos de artículos.
+
+- [PubMed (MEDLINE)](https://www.ncbi.nlm.nih.gov/pubmed/)
+- [Cochrane Library](https://www.cochranelibrary.com/)
+- [Centre for Reviews and Dissemination](https://www.crd.york.ac.uk/CRDWeb/)
+
+### Bibliotecas y *e*-Libros
+
+- [Access Medicine](https://accessmedicine.mhmedical.com/)
+- [ClinicalKey](https://www.clinicalkey.com/#!/)
+- [Decker Medicine](https://www.deckerip.com/)
+- [Library Genesis$^{2M}$](https://libgen.is/)
+
+### Metabuscadores
+
+- [TRIP (Turning Research into Practice)](http://www.tripdatabase.com/)

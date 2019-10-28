@@ -28,7 +28,7 @@ Para aumentar las probabilidades de producir preguntas clínicas robustas, es re
 
 El señor Gordillo es un paciente de 65 años de edad, con diagnóstico de Diabetes Mellitus tipo 2 y obesidad de larga evolución. Fuera de éstos dos puntos, su historia médica es ordinaria. No fuma. Tuvo una cirugía de rodilla hace 10 años, fuera de ésto sin otras complicaciones médicas. A través de los años ha intentado distintas dietas y programas de ejercicio para reducir su peso sin éxito significativo. Su nieta acaba de iniciar los estudios de preparatoria y él la quiere ver graduar e iniciar la universidad. El señor Gordillo entiende que su DM2 lo pone en gran riesgo de complicaciones cardiovasculares y está frustrado por sus fracasos al intentar bajar de peso. Su compadre le dijo sobre un conocido en el trabajo que *se hizo la manga gástrica*, logrando perder más de 45 kilos y, no solo eso, ¡también se *curó* de la diabetes que tenía! El acude a la clínica del estilo de vida porque quiere saber si lo pueden orientar sobre ésta operación que le comentó su compadre.
 
-#### Tu momento de brillar
+#### Tu momento de brillar {#preguntaPico}
 
 Sobre el caso de Joaquín Gordillo:
 
