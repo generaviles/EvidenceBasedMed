@@ -61,3 +61,8 @@ La gran mayoría de servicios **EBP** requieren subscripción de paga o instituc
 ### Metabuscadores
 
 - [TRIP (Turning Research into Practice)](http://www.tripdatabase.com/)
+
+## Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)
+<center>
+![Metodología PRISMA](img/prisma.png)
+</center>
