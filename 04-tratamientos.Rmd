@@ -162,7 +162,7 @@ Considera la siguiente publicación: [Ondansetron Decreases Vomiting Associated 
 Utilizando el formato [Graphic Appraisal Tool for
 Epidemiological studies (GATE)](https://www.dropbox.com/s/60eeqxfa4kpwi45/jackson2006.pdf?dl=0), resumimos la metodología del estudio:
 
-```{r echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="60%", fig.cap="P = población o paciente, I = intervención, C = comparación, O = desenlace de interés."}
+```{r echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="60%", fig.cap="P = población o paciente, I = intervención, A = aleatorización, C = comparación, O = desenlace de interés."}
 library(knitr)
 include_graphics('img/gate.png')
 ```
@@ -175,3 +175,15 @@ Calcula los siguientes indicadores:
 - RRR.
 - ARR.
 - NNT.
+
+## La Vida Real
+
+**¿Qué opinas de las siguientes publicaciones?**
+
+- [A 12-week Baduanjin Qigong exercise improves symptoms of ankylosing spondylitis: A randomized controlled trial.](https://www.dropbox.com/s/acrnjcte49yuu1l/xie2018.pdf?dl=0)
+- [A Low-Glycemic, Mediterranean Diet and Lifestyle Modification Program with Targeted Nutraceuticals Reduces Body Weight, Improves Cardiometabolic Variables and Longevity Biomarkers in Overweight Subjects: A 13-Week Observational Trial](https://www.dropbox.com/s/k4fp3rhajbcq165/tripp2019.pdf?dl=0)
+- [Physical activity change after a promotora-led intervention in low-income Mexican American women residing in South Texas](https://www.dropbox.com/s/0anubz4mgq2xbba/12889_2019_Article_7105.pdf?dl=0)
+
+### GATE Workbook for Intervention and Risk Studies
+
+Puedes descargar la herramienta dando [*click* aquí](https://cdn.auckland.ac.nz/assets/fmhs/soph/epi/epiq/docs/GATE%20Workbook_Intervention_Risk_24072019_template.xlsx).
