@@ -1,6 +1,6 @@
 --- 
 title: "Medicina Basada en Evidencias en Medicina de Estilo de Vida"
-subtitle: "Una Aproximación Paso a Paso Para el Club de Revistas de Medicina de Estilo de Vida."
+subtitle: "Una Aproximación Paso a Paso Para el equipo de Medicina Culinaria y Medicina Computacional."
 author: "Gener J Avilés Rodríguez, Med, MSc, DrSc(c)"
 date: "Marzo de 2021" #`r Sys.Date()`
 site: bookdown::bookdown_site
