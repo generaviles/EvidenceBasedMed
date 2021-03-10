@@ -5,7 +5,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">MBE</a></li>
+        <li><a href="./">MBE en MEV</a></li>
       after: |
         <li><a href="https://github.com/generaviles" target="blank">CARhE</a></li>
     edit: https://github.com/generaviles/EvidenceBasedMed/%s
