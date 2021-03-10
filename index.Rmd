@@ -1,6 +1,6 @@
 --- 
 title: "Medicina Basada en Evidencias en Medicina de Estilo de Vida"
-subtitle: "Una Aproximación Paso a Paso Para el equipo de Medicina Culinaria y Medicina Computacional."
+subtitle: "Una Aproximación Paso a Paso Para el equipo de Clínica del Estilo de Vida-Medicina Culinaria y Medicina Computacional."
 author: "Gener J Avilés Rodríguez, Med, MSc, DrSc(c)"
 date: "Marzo de 2021" #`r Sys.Date()`
 site: bookdown::bookdown_site
@@ -15,4 +15,7 @@ description: "Medicina Culinaria/ Medicina Computacional"
 
 # Introducción
 
-Éste manual digital está compilado para acompañar las sesiones colaborativas entre las actividades investigativas del grupo de Medicina Culinaria y Medicina Computacional en la Escuela de [Ciencias de la Salud](https://medicina.ens.uabc.mx/component/content/featured), coordinado por las Doctoras Fabiola Flores Monsivais, Lynette Amparo Velasco Aulcy y los Doctores Jorge Castillo y [Gener Avilés](https://www.linkedin.com/in/generaviles/).
+![](img/ecs.jpg){width=30%}
+![](img/culiMed.png){width=40%}
+
+Éste manual digital está compilado para acompañar las sesiones colaborativas entre las actividades investigativas del grupo de la Clínica del Estilo de Vida - Medicina Culinaria y Medicina Computacional en la [Escuela de Ciencias de la Salud](https://medicina.ens.uabc.mx/component/content/featured), coordinado por las Doctoras [Fabiola Flores Monsivais](https://culinaryamedicinae.com), Lynette Amparo Velasco Aulcy y los Doctores [Jorge Castillo](https://www.facebook.com/culinarymedicinemx) y [Gener Avilés](https://www.linkedin.com/in/generaviles/).
