@@ -18,4 +18,6 @@ description: "Medicina Culinaria/ Medicina Computacional"
 ![](img/ecs.jpg){width=30%}
 ![](img/culiMed.png){width=40%}
 
+![](img/medComp.png){width=35%}
+
 Éste manual digital está compilado para acompañar las sesiones colaborativas entre las actividades investigativas del grupo de la Clínica del Estilo de Vida - Medicina Culinaria y Medicina Computacional en la [Escuela de Ciencias de la Salud](https://medicina.ens.uabc.mx/component/content/featured), coordinado por las Doctoras [Fabiola Flores Monsivais](https://culinaryamedicinae.com), Lynette Amparo Velasco Aulcy y los Doctores [Jorge Castillo](https://www.facebook.com/culinarymedicinemx) y [Gener Avilés](https://www.linkedin.com/in/generaviles/).

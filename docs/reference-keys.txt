@@ -41,3 +41,17 @@ ejercicio-1
 ejercicio-2
 la-vida-real
 gate-workbook-for-intervention-and-risk-studies
+cómo-organziar-una-búsqueda-bibliográfica
+revisión-general-en-video
+presentaciones-en-video
+inglés
+español
+generalidades-en-video
+descripción-gráfica-del-proceso-de-búsqueda-bibliográfica
+concept-map
+ejemplo-de-una-implementación
+generalities-and-style-of-approach-selected
+databases-and-results
+prisma-flow-chart
+results-in-a-concept-map
+summary
