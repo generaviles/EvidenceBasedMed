@@ -52,3 +52,15 @@ ejercicio-1
 ejercicio-2
 la-vida-real
 gate-workbook-for-intervention-and-risk-studies
+evaluando-el-daño-con-estudios-observacionales
+cuándo-optar-por-estudios-observacionales
+dónde-se-ubican-los-estudios-de-casos-y-controles-y-los-de-cohorte-en-el-universo-de-investigaciones-clínicas
+horizonte-de-metodologías-en-el-campo-médico
+entendiendo-el-universo-un-poco-más
+enfocándonos-únicamente-en-estudios-de-casos-y-controles-y-cohortes
+estudios-de-cohorte
+evaluando-los-resultados-en-estudios-de-cohorte
+la-t-invertida-para-interpretar-el-riesgo-relativo
+estudio-de-casos-y-controles
+la-rosca-de-reyes-y-odds-ratios
+calcula-los-siguientes-indicadores-del-estudio-ejemplo-de-cohortes
